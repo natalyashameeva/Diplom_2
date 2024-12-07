@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Директории виртуальных окружений
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Файлы конфигурации IDE
+.idea/
+.vscode/
+
+# pytest cache
+.pytest_cache/
+
+# Allure report
+allure-report/
+
+
+# Папки с временными файлами
+*.log
+*.pot
+*.pyc
+
+# Системные файлы
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Местные настройки окружения
+*.env
+
+# Прочие файлы
+*.swp  # Для файлов, открытых в Vim
